@@ -51,7 +51,7 @@ function App() {
     <div className="App">
       <input
         value={input}
-        placeholder={"Tap on the virtual keyboard to start"}
+        placeholder={"(99) 9999-9999"}
         onChange={onChangeInput}
         className={"input"} // See inputMaskTargetClass below
       />
