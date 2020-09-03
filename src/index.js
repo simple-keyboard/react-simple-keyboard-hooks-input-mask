@@ -63,7 +63,12 @@ function App() {
         onModulesLoaded={() => {
           console.log("Modules loaded!");
         }}
-        inputMask={"(99) 9999-9999"}
+        inputMask={{
+          "default": {
+            mask: '+1 (999) 999-9999',
+            regex: /^[0-9]+$/
+          }
+        }}
         // Or, if you have multiple inputs handled by simple-keybaord
         // inputMask={{
         //   default: "(99) 9999-9999"
