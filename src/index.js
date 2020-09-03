@@ -51,7 +51,7 @@ function App() {
     <div className="App">
       <input
         value={input}
-        placeholder={"(99) 9999-9999"}
+        placeholder={"+1 (999) 999-9999"}
         onChange={onChangeInput}
         className={"input"} // See inputMaskTargetClass below
       />
